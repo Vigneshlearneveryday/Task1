@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Icon CDN Link -->
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+     crossorigin="anonymous"
+     referrerpolicy="no-referrer"
+   />
+   <!-- Font CDN Link -->
+   <link rel="preconnect" href="https://fonts.googleapis.com" />
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+   <link
+     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+     rel="stylesheet"
+   />
+    <title>Landingpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- navbar -->
+     <nav class="navbar">
+        <div class="logo">
+            <h3>Trabook</h3>
+            <img src="assets/tourlogo.png" alt="img1">
+        </div>
+        <div class="navlist">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Destination">Destination</a></li>
+                <li><a href="#Tour">Tour</a></li>
+                <li><a href="#Blog">Blog</a></li>
+            </ul>
+        </div>
+        <div class="login">
+            <span id="login"><a href="">Login</a></span>
+            <button>signup</button>
+        </div>
+     </nav>
+
+
+     <!-- header -->
+     <header class="header" id="home">
+        <div class="header-container">
+            <div class="header-text">
+                <h1>Get started your exciting <span class="highlight" style="color: #FA7436;">journey</span> with us.</h1>
+                <p>A Team of experienced tourism professionals will</br>provide you with the best advice and tips for your</br>desire place.</p>
+                <button type="button">Discover Now</button>
+            </div>
+            <div class="header-img">
+                <img src="assets/headerimg.png" alt="headerimag">
+            </div>
+        </div>
+     </header>
+
+
+     <!-- section1 -->
+      <section class="section1" id="About">
+        <div class="search-bar">
+            <div class="search-item">
+              <!-- <label for="location">Location</label> -->
+              <select id="location" name="location">
+                <option value="" disabled selected>Location</option>
+                <option value="city1">City 1</option>
+                <option value="city2">City 2</option>
+              </select>
+              <p>Where are you going</p>
+            </div>
+            <div class="search-item">
+              <!-- <label for="date">Date</label> -->
+              <select id="date" name="date">
+                <option value="" disabled selected>date</option>
+                <option value="date1">Date 1</option>
+                <option value="date2">Date 2</option>
+              </select>
+              <p>When you will go</p>
+            </div>
+            <div class="search-item">
+              <!-- <label for="guest">Guest</label> -->
+              <select id="guest" name="guest">
+                <option value="" disabled selected>guest</option>
+                <option value="1">1 Guest</option>
+                <option value="2">2 Guests</option>
+              </select>
+              <p>Number of guest</p>
+            </div>
+            <button class="explore-btn">Explore Now</button>
+          </div>
+      </section>
+
+
+      <!-- section2 -->
+      <section class="section2" id="Destination">
+        <div class="section2-part1">
+            <div class="section2-part1-text">
+                <h1>Things you need <span class="highlight1" style="color: #FA7436;">to do</span></h1>
+                <p>We ensure that you’ll embark on a perfectly planned,</br>safe vacation at a price you can afford.</p>
+            </div>
+        </div>
+        <div class="section2-part2">
+            <div class="section2-card">
+                <img src="assets/card1.png" alt="card1-img">
+                <h4>Sign Up</h4>
+                <p>Completes all the work associated</br> with planning and processing</p>
+            </div>
+            <div class="section2-card">
+                <img src="assets/card2.png" alt="card2-img">
+                <h4>Worth of Money</h4>
+                <p>After successful access then book</br> from exclusive deals & pricing</p>
+            </div>
+            <div class="section2-card">
+                <img src="assets/card3.png" alt="card3-img">
+                <h4>Exciting Travel</h4>
+                <p>Start and explore a wide range of</br> exciting travel experience.</p>
+            </div>
+            
+        </div>
+      </section>
+
+
+      <!-- section3 -->
+       <section class="section3">
+        <div class="section3-part1">
+            <div class="section3-part1-text">
+                <h1>Exclusive <span class="highlight1" style="color: #FA7436;">deals & discounts</span></h1>
+                <p>Discover our fantastic early booking discounts</br>& start planning your journey.</p>
+            </div>
+        </div>
+        <div class="section3-part2">
+
+            <div class="section3-card">
+                <div class="s3cardp1">
+                    <img src="assets/s3Image1.png" alt="card1-img">
+                </div>
+               <div class="s3cardp2">
+                    <h4>Madrid</h4>
+                    <img src="assets/star 1.png" alt="star" id="star"><span>4.8</span>
+               </div>
+                <div class="s3cardp3">
+                    <img src="assets/location.png" alt="location">
+                    <span id="cntry">Spain</span>
+                    <span id="price1">$950</span>
+                    <span id="price2">$850</span>
+                </div>
+            </div>
+
+            <div class="section3-card">
+                <div class="s3cardp1">
+                    <img src="assets/s3Image2.png" alt="card2-img">
+                </div>
+                <div class="s3cardp2">
+                    <h4>Firenze</h4>
+                    <img src="assets/star 1.png" alt="star" id="star"><span>4.5</span>
+                </div>
+                <div class="s3cardp3">
+                    <img src="assets/location.png" alt="location">
+                    <span id="cntry">Italy</span>
+                    <span id="price1">$850</span>
+                    <span id="price2">$750</span>
+                </div>
+            </div>
+
+            <div class="section3-card">
+                <div class="s3cardp1">
+                    <img src="assets/s3Image3.png" alt="card3-img">
+                </div>
+                <div class="s3cardp2">
+                    <h4>Paris</h4>
+                    <img src="assets/star 1.png" alt="star" id="star"><span>4.4</span>
+                </div>
+                <div class="s3cardp3">
+                    <img src="assets/location.png" alt="location">
+                    <span id="cntry">France</span>
+                    <span id="price1">$699</span>
+                    <span id="price2">$599</span>
+                </div>
+            </div>
+
+            <div class="section3-card">
+                <div class="s3cardp1">
+                    <img src="assets/s3Image4.png" alt="card3-img">
+                </div>
+                <div class="s3cardp2">
+                    <h4>London</h4>
+                    <img src="assets/star 1.png" alt="star" id="star"><span>4.8</span>
+                </div>
+                <div class="s3cardp3">
+                    <img src="assets/location.png" alt="location">
+                    <span id="cntry">UK</span>
+                    <span id="price1">$850</span>
+                    <span id="price2">$850</span></div>
+            </div>
+            <div class="btns2">
+                <button type="submit">Book Now</button>
+            </div>
+        </div>
+        <div class="section3-part3">
+            <img src="assets/s3button.png" alt="btn1">
+            <img src="assets/s3button.png" alt="btn2" id="btn2">
+        </div>
+       </section>
+
+       <!-- section4 -->
+       <section class="section4">
+        <div class="section4-part1">
+            <div class="section4-part1-text">
+                <h1>Best <span class="highlight1" style="color: #FA7436;">vacation plan</span></h1>
+                <p>Plan your perfect vacation with our travel agency. Choose</br>among hundreds of all-inclusive offers! </p>
+                <img src="assets/tree.png" alt="tree">
+            </div>
+        </div>
+        <div class="section4-part2">
+            <img src="assets/s3button.png" alt="btn1">
+            <img src="assets/s3button.png" alt="btn2" id="btn2">
+        </div>
+        <div class="section4-part3">
+
+            <div class="section4-card">
+                <div class="s4cardp1">
+                    <img src="assets/s4Image1.png" alt="card1-img">
+                </div>
+               <div class="s4cardp2">
+                    <h4>Rome, Italty</h4>
+                    <span>$5,42k</span>
+               </div>
+                <div class="s4cardp3">
+                    <span id="cntry">10 Days Trip</span>
+                    <img src="assets/star 1.png" alt="star" id="star">
+                    <span id="price1">4.8</span>
+                </div>
+            </div>
+
+            <div class="section4-card">
+                <div class="s4cardp1">
+                    <img src="assets/s4Image2.png" alt="card1-img">
+                </div>
+               <div class="s4cardp2">
+                    <h4>London,UK</h4>
+                    <span>$2,42k</span>
+               </div>
+                <div class="s4cardp3">
+                    <span id="cntry">07 Days Trip</span>
+                    <img src="assets/star 1.png" alt="star" id="star">
+                    <span id="price1">4.7</span>
+                </div>
+            </div>
+
+            <div class="section4-card">
+                <div class="s4cardp1">
+                    <img src="assets/s4Image3.png" alt="card1-img">
+                </div>
+               <div class="s4cardp2">
+                    <h4>Osaka,Japan</h4>
+                    <span>$5,42k</span>
+               </div>
+                <div class="s4cardp3">
+                    <span id="cntry">10 Days Trip</span>
+                    <img src="assets/star 1.png" alt="star" id="star">
+                    <span id="price1">4.8</span>
+                </div>
+            </div>
+
+
+        </div>
+
+       </section>
+
+       <!-- section5 -->
+        <section class="section5">
+            <div class="section5-part1">
+                    <h1>What people say <br><span class="highlight1" style="color: #FA7436;">about Us.</span></h1>
+                    <p>Our Clients send us bunch of smilies with our services<br>and we love them.</p>
+                    <img src="assets/s3button.png" alt="btn1">
+                <img src="assets/s3button.png" alt="btn2" id="section5-part-btn2">
+            </div>
+            <div class="section5-part2">
+                <img src="assets/Client-11.png" alt="img1">
+            </div>
+            <div class="section5-part3">
+                <img src="assets/Element .png" alt="img1">
+            </div>
+        </section>
+
+        <!-- section6 -->
+           <!-- section6 -->
+       <section class="section6">
+        <div class="section6-part1">
+            <div class="section6-part1-text">
+                <h1>Get update with<span class="highlight1" style="color: #FA7466;"> latest blog</span></h1>
+            </div>
+        </div>
+        <div class="section6-part2">
+
+            <div class="section6-card">
+                <div class="s6cardp1">
+                    <img src="assets/s6Image1.png" alt="card1-img">
+                </div>
+               <div class="s6cardp2">
+                   <p>The Amazing Difference a</br>Year of Travelling .</p>
+               </div>
+                <div class="s6cardp3">
+                    <span>July 27, 2021</span>
+                </div>
+            </div>
+
+            <div class="section6-card">
+                <div class="s6cardp1">
+                    <img src="assets/s6Image2.png" alt="card1-img">
+                </div>
+               <div class="s6cardp2">
+                   <p>Travel far enough, you</br>meet yourself.</p>
+               </div>
+                <div class="s6cardp3">
+                    <span>July 27, 2021</span>
+                </div>
+            </div>
+
+            <div class="section6-card">
+                <div class="s6cardp1">
+                    <img src="assets/s6Image3.png" alt="card1-img">
+                </div>
+               <div class="s6cardp2">
+                   <p>How to Save Money While</br>Visiting Africa .</p>
+               </div>
+                <div class="s6cardp3">
+                    <span>July 27, 2021</span>
+                </div>
+            </div>
+
+            <div class="section6-card">
+                <div class="s6cardp1">
+                    <img src="assets/s6Image4.png" alt="card1-img">
+                </div>
+               <div class="s6cardp2">
+                   <p>Reflections on 5 Months of</br>Travel: Time to Hang</p>
+               </div>
+                <div class="s6cardp3">
+                    <span>July 27, 2021</span>
+                </div>
+            </div> 
+        </div>
+        <div class="section6-part3">
+            <img src="assets/Slider.png" alt="">
+        </div>
+       </section>
+
+       <!-- section7 -->
+       <section class="section7">
+        <div class="s7container">
+            <img src="assets/Subscribe.png" alt="">
+        </div>
+       </section>
+
+      <!-- footer -->
+       <section class="Footer">
+        <div class="footer-part1">
+            <div class="footer-part1-text">
+                <h3>Trabook</h3>
+                <img src="assets/tourlogo.png" alt="img1" id="foot1">
+            </div>
+            <p>Book your trip in minute, get full<br>Control for much longer.</p>
+            <img src="assets/Social_0.png" alt="" id="foot2">
+        </div>
+        <div class="footer-part2">
+           <div class="F1">
+                <H5>Company</H5>
+                <a href="">About</a>
+                <a href="">Careers</a>
+                <a href="">Logistic</a>
+                <a href="">Privacy & Policy</a>
+           </div>
+           <div class="F1">
+                <H5>Contact</H5>
+                <a href="">Help/FAQ</a>
+                <a href="">Press</a>
+                <a href="">Affilates</a>
+            </div>
+            <div class="F1">
+                <H5>More</H5>
+                <a href="">Press Centre</a>
+                <a href="">Our Blog</a>
+                <a href="">Low fare tips</a>
+            </div>
+        </div>
+        <div class="footer-part3">
+            <img src="assets/Border.png" alt="">
+        </div>
+        <div class="footer-part4">
+            <div class="copy">
+                <a href="">Copyright, Trabook 2022. All rights reserved.</a>
+            </div>
+            <div class="term">
+                <a href="">Terms & Conditions</a>
+            </div>
+        </div>
+       </section>
+
+</body>
+</html>
